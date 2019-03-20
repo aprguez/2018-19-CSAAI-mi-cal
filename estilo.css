@@ -1,0 +1,27 @@
+.calculadora{
+  display:block;
+  margin:0 auto;
+  padding:50px;
+  background-color:#0000CD;
+  width:300px;
+  height:425px;
+  border-radius: 0px;/*Redondea bordes*/
+}
+.calculadora td button{
+  display:block;
+  width:70px;
+  height: 70px;
+  font-size: 25px;
+}
+#resultado{
+  display:block;
+  text-align: center;
+  font-size: 50px;/*Tamaño numero pantalla*/
+  margin-bottom: 20px;
+  width:300px;
+  height: 80px;
+  line-height: 80px;/*Permite subir o bajar el numero en la pantalla de resultado*/
+  background-color:#fff;
+  border-radius: 0px;/*Redondea bordes*/
+  overflow-y: scroll;
+}
